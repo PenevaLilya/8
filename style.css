@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('font/subset-MyriadPro-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    max-width: 1250px;
+    font-family: 'Myriad Pro';
+    margin: 30px auto;
+}
+.container{
+    margin-left: 141px;
+    margin-right: 162px;
+}
+.baner{
+    background-image: url('img/bg.png');
+    background-size: cover;
+    margin-top:25px;
+    padding: 153px 232px 211px 626px;
+}
+.logo{
+    color: #000000;
+    font-size: 42px;
+    font-weight: 400;
+    letter-spacing: 0.42px;
+    float: left;
+}
+.logo_img{
+    margin-right: 15px;
+}
+.nav{
+    float: right;
+}
+.link{
+    text-decoration: none;
+    color: #6c6c6c;
+    letter-spacing: 0.2px;
+    font-size: 20px;
+}
+.nav__item{
+    display: inline-block;
+    margin-left: 18px;
+    margin-top: 20px;
+}
+.baner_text{
+    color: #ffffff;
+    font-size: 26px;
+    line-height: 45px;
+}
+.clearfix{
+    clear: both;
+}
+.name1{
+    font-size: 42px;
+    
+}
+.button{
+    color: #ffffff;
+    font-family: "Myriad Pro";
+    font-size: 22px;
+    line-height: 45px;
+    background-color:#5094f2;
+    border: none; 
+    margin-top: 35px;
+    margin-left: 12px; 
+    border: 1px solid #5094f2;
+}
+.button:hover{
+    border: 1px solid white;
+}
+.main{
+    margin: 57px 0px 50px 143px;
+}
+.block{
+    margin-bottom: 90px;
+}
+.block .image{
+    margin-bottom: 25px;
+}
+.block1{
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin-right: 120px;
+}
+.subtitle{
+    color: #5094f2;
+    font-size: 20px;
+    line-height: 45px;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+.text{
+    color: #909090;
+    font-size: 14px;
+}
+.block .text{
+    max-width: 248px;
+}
+.title{
+    color: #6f7173;
+    font-size: 42px;
+    line-height: 45px;
+}
+.first{
+    font-size: 26px;
+    margin-top: 4px;
+    margin-bottom: 16px;
+}
+.main_block .text{
+    font-size: 15px;
+    line-height: 36px;
+    margin-right: 187px;
+}
+.main_block .image{
+    float: left;
+    margin: 35px 82px 0px 16px;
+}
+.copyright{
+    color: #909090;
+    font-size: 15px;
+    line-height: 36px;
+    text-align: center;
+}
+.footer{
+    padding-top: 30px;
+    padding-bottom: 40px;
+    border-top: 1px solid #e5e5e5;
+}
